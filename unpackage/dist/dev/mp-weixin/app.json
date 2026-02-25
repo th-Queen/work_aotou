@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/login/register",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/mine/modifyinfo",
+    "pages/index/release",
+    "pages/index/task",
+    "pages/index/qt",
+    "pages/index/technical",
+    "pages/search/search",
+    "pages/index/detail/qtdt",
+    "pages/index/detail/taskdt",
+    "pages/index/detail/releasedt",
+    "pages/index/detail/technicaldt",
+    "pages/login/lianxi",
+    "pages/login/ceshi"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "过程进度",
+        "iconPath": "static/tabbar/search.png",
+        "selectedIconPath": "static/tabbar/search-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

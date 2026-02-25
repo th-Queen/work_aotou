@@ -1,0 +1,72 @@
+
+.login-container {
+	height: 100vh;
+	background: linear-gradient(to bottom, #ffff8c, #f0fdfe);
+	/* background: linear-gradient(to bottom, #7fd1e3, #f0fdfe); */
+	padding: 200rpx 60rpx 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.login-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 80rpx;
+}
+.logo {
+	width: 300rpx;
+	height: 200rpx;
+	border-radius: 20rpx;
+	margin-bottom: 40rpx;
+}
+.app-title {
+	font-size: 36rpx;
+	color: #333;
+	font-weight: bold;
+}
+.login-form {
+	background: white;
+	border-radius: 20rpx;
+	padding: 60rpx 40rpx;
+	box-shadow: 0 10rpx 30rpx rgba(0, 0, 0, 0.1);
+}
+.form-item {
+	margin-bottom: 40rpx;
+}
+.label {
+	display: block;
+	font-size: 28rpx;
+	color: #333;
+	margin-bottom: 16rpx;
+	font-weight: 500;
+}
+.input {
+	border: 2rpx solid #e1e5e9;
+	border-radius: 8rpx;
+	padding: 24rpx 20rpx;
+	font-size: 28rpx;
+	background: #f8f9fa;
+}
+.login-btn {
+	background-color: #007aff;
+	color: white;
+	border: none;
+	border-radius: 8rpx;
+	height: 88rpx;
+	font-size: 32rpx;
+	font-weight: bold;
+	margin-top: 40rpx;
+}
+.register-link {
+	text-align: center;
+	margin-top: 40rpx;
+	font-size: 26rpx;
+	color: #666;
+}
+.register-text {
+	color: #007aff;
+	font-weight: bold;
+	margin-left: 10rpx;
+}

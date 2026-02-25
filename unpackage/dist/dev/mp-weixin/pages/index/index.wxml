@@ -1,0 +1,1 @@
+<view class="container"><view class="button"><button class="btn" bindtap="{{a}}">市场部</button><button class="btn" bindtap="{{b}}">技术部</button></view><view class="button"><button class="btn" bindtap="{{c}}">生产部</button><button class="btn" bindtap="{{d}}">品质部</button></view></view>

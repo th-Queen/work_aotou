@@ -1,0 +1,1 @@
+<view class="login-container"><view><button bindtap="{{a}}">保存文件</button><button bindtap="{{b}}">本地文件信息</button><button bindtap="{{c}}">上传照片</button></view></view>

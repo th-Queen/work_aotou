@@ -1,0 +1,80 @@
+
+.container {
+		padding: 40rpx;
+		background: linear-gradient(to bottom, #7fd1e3, #f0fdfe);
+		min-height: 100vh;
+}
+.form {
+		background: white;
+		border-radius: 20rpx;
+		padding: 40rpx;
+		box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
+}
+.avatar-section {
+		text-align: center;
+		margin-bottom: 40rpx;
+}
+.avatar {
+		width: 120rpx;
+		height: 120rpx;
+		border-radius: 60rpx;
+		border: 4rpx solid #f0f0f0;
+}
+.avatar-tip {
+		display: block;
+		font-size: 26rpx;
+		color: #666;
+		margin-top: 10rpx;
+}
+.form-item {
+		margin-bottom: 30rpx;
+}
+.label {
+		display: block;
+		font-size: 28rpx;
+		color: #333;
+		margin-bottom: 10rpx;
+		font-weight: bold;
+}
+.input {
+		border: 2rpx solid #e0e0e0;
+		border-radius: 8rpx;
+		padding: 20rpx;
+		font-size: 28rpx;
+		width: 100%;
+		box-sizing: border-box;
+
+		height: 88rpx;
+		line-height: 48rpx;
+		vertical-align: middle;
+}
+.input::-webkit-input-placeholder {
+		font-size: 28rpx;
+		/* color: #999; */
+}
+.input::placeholder {
+		font-size: 28rpx;
+		/* color: #999; */
+}
+.button-group {
+		display: flex;
+		flex-direction: column;
+		gap: 20rpx;
+		margin-top: 40rpx;
+}
+.save-btn {
+		background: #007aff;
+		color: white;
+		border: none;
+		border-radius: 8rpx;
+		height: 80rpx;
+		font-size: 32rpx;
+}
+.cancel-btn {
+		background: #f0f0f0;
+		color: #666;
+		border: none;
+		border-radius: 8rpx;
+		height: 80rpx;
+		font-size: 32rpx;
+}

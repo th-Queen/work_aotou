@@ -1,0 +1,1 @@
+<view class="progress-container data-v-c10c040c"><view class="steps data-v-c10c040c"><view wx:for="{{a}}" wx:for-item="step" wx:key="c" class="step-item data-v-c10c040c"><view class="{{['light', 'data-v-c10c040c', step.a && 'active']}}"></view><view class="step-name data-v-c10c040c">{{step.b}}</view></view></view><view class="process-placeholder data-v-c10c040c"></view></view>
